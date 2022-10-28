@@ -1,6 +1,3 @@
-const roboger = ["Won't you be my neighbor?", "Boop!", "Beep!"];
-const roboReply = ["3", "2", "1"];
-
 //Business Logic
 function countUp(number) {
   const countArray = number;
@@ -9,6 +6,8 @@ function countUp(number) {
     numberArray.push( i + 1);
   } return numberArray
 }
+
+const roboReply = ["3", "2", "1"];
 
 
 
