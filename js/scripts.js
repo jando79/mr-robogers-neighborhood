@@ -19,8 +19,8 @@ function roboger(number) {
         responseArray.push("" + robo[1]);
     } else if (element.includes(roboUser[2])) {
         responseArray.push("" + robo[2]);
-    { else 
-      responseArray.push("" + element);
+     } else {
+        responseArray.push("" + element);
     }
     });
     return responseArray;
@@ -31,8 +31,8 @@ document.ready(function () {
   ("form").submit(function (event) {
       event.preventDefault();
       const userInput = ("#user-input").val();
-        const robo = robo(userInput);
-        ("#response").text(reply);
-        ("#response").slideDown(reply);
+        const roboReply = roboger(userInput);
+        ("#reply").text(reply);
+        ("#reply").slideDown(reply);
   });
-});
+})};
