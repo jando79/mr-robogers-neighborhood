@@ -32,4 +32,6 @@ Test: "It should return the phrase "Won't you be my neighbor?" if the given numb
 Code: roboger("2","3")
 Expected Output: "Won't you be my neighbor?"
 
-Test: 
+Test: If a user inputs a number greater than a '1', '2', or '3', the program should display a list of values starting with 0 to 9, with the numbers '1', '2', and '3' substituted with the updated correlated phrases.
+Code: ('0','1','2','3','4','5','6','7','8','9')
+Expected Output: "0 Beep! Boop! Won't you be my neighbor? 4 5 6 7 8 9" 
