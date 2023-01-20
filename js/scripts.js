@@ -10,6 +10,15 @@ function countUp(input) {
 }
 
 
-  window.addEventListener("load", function() {
-    document.querySelector("form#roboger-responds").addEventListener("submit", handleFormSubmission);
-  });
+function numberInput(event) {
+  event.preventDefault();
+  const numberInput = document.getElementById("numberInput").value
+  let newInput = countUp(numberInput)
+
+  document.getElementById("return").innerText = beepBoop(newInput);
+ }
+
+ window.addEventListener("load", function() {
+  const form = document.getElementById("form");
+  form.addEventListener("submit", gatherInput);
+ })
