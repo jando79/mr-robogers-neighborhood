@@ -12,7 +12,7 @@
 
 ## Description
 
-Mr. Roboger responds to numbers containing "1", "2", and "3". His response is determined by what you answer.
+Mr. Roboger responds to numbers containing "1", "2", and "3". His response is determined by the number entered into the text field. Try more than once, and his answers will change. 
 
 ## Setup/Installation Requirements
 
