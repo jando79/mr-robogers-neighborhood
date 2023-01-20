@@ -1,22 +1,11 @@
+//Business Logic
 
-function convertToPigLatin(sentence) {
-  let words = sentence.split(" ");
-  let pigLatinWords = words.map(function(word) {
-    let firstLetter = word[0];
-    return word.slice(1) + firstLetter + "ay";
-  });
-  return pigLatinWords.join(" ");
+let roboArray1 = [1];
+let robogerResponseArray = [];
+
+For (let index = 0; index >= roboArray1.length; index +=1) {
+robogerResponseArray.push(roboArray1[index] ="Beep!");
 }
-
-function convertToPigLatin(sentence) {
-  let words = sentence.split(" ");
-  let pigLatinWords = words.map(function(word) {
-    if(/^[aeiou]/i.test(word)) return word+"way"; // start with vowels
-    if(/^qu/i.test(word)) return word.slice(2) + "quay"; // start with qu
-    let firstLetter = word[0];
-
-
-
 //User Interface Logic
 function handleFormSubmission() {
   event.preventDefault();
