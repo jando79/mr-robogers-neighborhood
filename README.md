@@ -16,9 +16,10 @@ Mr. Roboger responds to numbers containing "1", "2", and "3". His response is de
 
 ## Setup/Installation Requirements
 
-* Clone the repository to your desktop and open the folder
-* Drag the index.html document into your brower.
-* Enter a number in the text box next and click the button “Roboger Response
+* To view, clone this repository to your desktop
+* Navigate to the top of your directory
+* Open the index.html in your browser
+* The site can also be reached by following this link: https://jando79.github.io/mr-robogers-neighborhood/
 
 ## Known Bugs
 
