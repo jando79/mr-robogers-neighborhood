@@ -22,7 +22,7 @@ Mr. Roboger responds to numbers containing "1", "2", and "3". His response is de
 
 ## Known Bugs
 
-* When a number is entered and the user submits, no message appears
+* N/A
 
 ## License
 
